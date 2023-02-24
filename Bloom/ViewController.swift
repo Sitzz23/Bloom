@@ -9,12 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var signUpButton: UIButton!
+    
+    @IBOutlet var signUp: UIButton!
+    
+    @IBAction func toSignUp(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "signup")
+        
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//
-//        signUpButton.layer.borderWidth = 2
+        
+//        signUp.layer.borderWidth = 1
+//        signUp.layer.borderColor = UIColor.black.cgColor
+
+ //     signUpButton.layer.borderWidth = 2
 //        signUpButton.layer.borderColor = UIColor.black.cgColor
 //
 //        signUpButton.layer.shadowOpacity = 0.5
