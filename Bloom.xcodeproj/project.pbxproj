@@ -13,6 +13,7 @@
 		384D3D13298547AF008DE942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384D3D11298547AF008DE942 /* Main.storyboard */; };
 		384D3D15298547AF008DE942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384D3D14298547AF008DE942 /* Assets.xcassets */; };
 		384D3D18298547AF008DE942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384D3D16298547AF008DE942 /* LaunchScreen.storyboard */; };
+		38B016AB29AC98FF00DF3EAB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B016AA29AC98FF00DF3EAB /* HomeVC.swift */; };
 		38F3CE9429A8D4F500B20D9C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3CE9329A8D4F500B20D9C /* SignUpViewController.swift */; };
 		38F3CE9629AC7C5000B20D9C /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3CE9529AC7C5000B20D9C /* loginVC.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		384D3D14298547AF008DE942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384D3D17298547AF008DE942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		384D3D19298547AF008DE942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B016AA29AC98FF00DF3EAB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		38F3CE9329A8D4F500B20D9C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		38F3CE9529AC7C5000B20D9C /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				384D3D0B298547AF008DE942 /* AppDelegate.swift */,
+				38B016AA29AC98FF00DF3EAB /* HomeVC.swift */,
 				384D3D0D298547AF008DE942 /* SceneDelegate.swift */,
 				38F3CE9329A8D4F500B20D9C /* SignUpViewController.swift */,
 				384D3D0F298547AF008DE942 /* ViewController.swift */,
@@ -147,6 +150,7 @@
 				384D3D10298547AF008DE942 /* ViewController.swift in Sources */,
 				38F3CE9629AC7C5000B20D9C /* loginVC.swift in Sources */,
 				384D3D0C298547AF008DE942 /* AppDelegate.swift in Sources */,
+				38B016AB29AC98FF00DF3EAB /* HomeVC.swift in Sources */,
 				38F3CE9429A8D4F500B20D9C /* SignUpViewController.swift in Sources */,
 				384D3D0E298547AF008DE942 /* SceneDelegate.swift in Sources */,
 			);

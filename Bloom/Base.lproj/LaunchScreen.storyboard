@@ -16,21 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Fnl-fh-XFE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image 10" translatesAutoresizingMaskIntoConstraints="NO" id="Fnl-fh-XFE">
                                 <rect key="frame" x="46" y="248" width="300" height="357"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="szP-3e-XGL"/>
-                                    <constraint firstAttribute="height" constant="357" id="ydA-fU-iBz"/>
+                                    <constraint firstAttribute="width" secondItem="Fnl-fh-XFE" secondAttribute="height" multiplier="100:119" id="uUF-LX-iYf"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Fnl-fh-XFE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9BD-co-RgX"/>
                             <constraint firstItem="Fnl-fh-XFE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HbP-7f-8Y1"/>
                             <constraint firstItem="Fnl-fh-XFE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OWD-4N-UAt"/>
-                            <constraint firstItem="Fnl-fh-XFE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eMg-dJ-WC3"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="1752" height="1221"/>
+        <image name="image 10" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
